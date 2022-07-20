@@ -16,7 +16,7 @@ jobs:
       - name: Install dependecies
         run: |
           pip3 install dvc[gs]
-          pip3 install -r api/requirements.txt
+          pip3 install -r requirements.txt
       - name: Test API
         run: |
           export GOOGLE_APPLICATION_CREDENTIALS=$(python utilities/setter.py)
