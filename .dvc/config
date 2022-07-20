@@ -1,0 +1,6 @@
+[core]
+    no_scm = True
+['remote "dataset-track"']
+    url = gs://bucket-model-data-track/data
+['remote "model-track"']
+    url = gs://bucket-model-data-track/model
