@@ -4,5 +4,5 @@ venv
 *.csv
 *.pkl
 *.png
-*.txt
+report.txt
 __pycache__/
