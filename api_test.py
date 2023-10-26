@@ -32,3 +32,5 @@ def test_prediction():
                                                 'imdb_score': 5})
     assert response.status_code == 200
     assert response.json()['worldwide_gross'] != 0
+
+#Just a comment to test the git commands
